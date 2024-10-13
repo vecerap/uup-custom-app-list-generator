@@ -1,0 +1,19 @@
+name: Rebase check
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches:
+      - master
+
+jobs:
+  rebase_job:
+    runs-on: ubuntu-latest
+    name: Enforce rebasing
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Is Rebased on master?
+      uses: cyberark/enforce-rebase@v2
