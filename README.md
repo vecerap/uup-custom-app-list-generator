@@ -1,6 +1,6 @@
 # Description
 
-Generates CustomAppsList.txt with minimal Win Store applications required to run windows properly. Basically the stripped down version without bloatware apps.
+Generates CustomAppsList.txt with minimal Win Store applications required to run Windows properly. Basically the stripped down version without bloatware apps. The script is for [UUP dump](https://uupdump.net/) for Windows ISO creation and customization.
 
 The reason of this script is to prevent invalid package names in case of package ID after the package name changes from time to time.
 
