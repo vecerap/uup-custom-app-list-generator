@@ -30,10 +30,10 @@ namespace WinStoreAppBuilder
 			"Microsoft\\.WindowsCalculator",
 			"Microsoft\\.ScreenSketch",
 			"windowscommunicationsapps",
+			"Microsoft\\.GetHelp",
 			"XboxSpeechToTextOverlay",
 			"XboxGameOverlay",
 			"XboxIdentityProvider",
-			"PowerAutomateDesktop",
 			"QuickAssist",
 			"ApplicationCompatibilityEnhancements",
 			"MicrosoftWindows\\.CrossDevice",
@@ -50,7 +50,8 @@ namespace WinStoreAppBuilder
 			"Microsoft\\.WebpImageExtension",
 			"Microsoft\\.DolbyAudioExtensions",
 			"Microsoft\\.AVCEncoderVideoExtension",
-			"Microsoft\\.MPEG2VideoExtension"
+			"Microsoft\\.MPEG2VideoExtension",
+			"Microsoft\\.AV1VideoExtension"
 
 		};
 
